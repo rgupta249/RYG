@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { ThemeProvider, useTheme } from "@mui/material/styles";
+import { UserContext } from "./context";
+import EquipmentDetails from "./components/EquipmentDetailsPage/EquipmentDetail";
+import EquipmentList from "./components/EquipmentListPage/EquipmentList";
 
-function App() {
+const App = () => {
+  const [userRole, setUserRole] = useState("ROLE_WORKER");
+  const muiTheme = useTheme();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ThemeProvider theme={muiTheme}>
+        <UserContext.Provider value={{ userRole, setUserRole }}>
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<EquipmentList />} />
+              <Route path="equipment/:id" element={<EquipmentDetails />} />
+            </Routes>
+          </BrowserRouter>
+        </UserContext.Provider>
+      </ThemeProvider>
+    </>
   );
-}
+};
 
 export default App;

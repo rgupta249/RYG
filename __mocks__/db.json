@@ -1,0 +1,226 @@
+{
+  "equipments": [
+    {
+      "equipment_desc": "Equipment 1",
+      "state": "G",
+      "id": 14298
+    },
+    {
+      "equipment_desc": "Equipment 2",
+      "state": "Y",
+      "id": 51782
+    },
+    {
+      "id": 51432,
+      "equipment_desc": "Equipment 3",
+      "state": "R"
+    },
+    {
+      "equipment_desc": "Equipment 4",
+      "state": "G",
+      "id": 53214
+    },
+    {
+      "id": 59131,
+      "equipment_desc": "Equipment 5",
+      "state": "R"
+    }
+  ],
+  "orders": [
+    {
+      "id": 24123,
+      "order_desc": "Produce 500 pieces of brick id BR01",
+      "order_state": "In Progress",
+      "started_at": "2022-05-20 16:35:58.0",
+      "equipmentId": 14298
+    },
+    {
+      "id": 33214,
+      "order_desc": "Produce 2000 pieces of brick id BR02",
+      "order_state": "Scheduled",
+      "started_at": "2023-02-16T12:22:07.709Z",
+      "equipmentId": 14298
+    },
+    {
+      "id": 42341,
+      "order_desc": "Produce 1000 pieces of brick id BR03",
+      "order_state": "Scheduled",
+      "started_at": "2023-02-16T12:22:07.709Z",
+      "equipmentId": 14298
+    },
+    {
+      "id": 31231,
+      "order_desc": "Produce 1000 pieces of brick id BR04",
+      "order_state": "Scheduled",
+      "started_at": "2023-02-16T12:22:07.709Z",
+      "equipmentId": 14298
+    },
+    {
+      "id": 13214,
+      "order_desc": "Produce 1000 pieces of brick id BR03",
+      "order_state": "In Progress",
+      "started_at": "2023-02-18T10:56:27.451Z",
+      "equipmentId": 59131
+    },
+    {
+      "id": 13217,
+      "order_desc": "Produce 1000 pieces of brick id BR03",
+      "order_state": "Scheduled",
+      "started_at": "2023-02-16T12:22:07.709Z",
+      "equipmentId": 59131
+    },
+    {
+      "id": 84221,
+      "order_desc": "Produce 1000 pieces of brick id BR03",
+      "order_state": "Scheduled",
+      "started_at": "2023-02-16T12:22:07.709Z",
+      "equipmentId": 51432
+    },
+    {
+      "id": 32141,
+      "order_desc": "Produce 1000 pieces of brick id BR03",
+      "order_state": "Scheduled",
+      "started_at": "2023-02-16T12:22:07.709Z",
+      "equipmentId": 51432
+    },
+    {
+      "started_at": "2023-02-15T12:22:07.709Z",
+      "order_desc": "Produce 37629 pieces of brick id BR17675",
+      "id": 57285,
+      "equipmentId": 51782,
+      "order_state": "In Progress"
+    },
+    {
+      "started_at": "2023-02-16T12:22:07.709Z",
+      "order_desc": "Produce 37195 pieces of brick id BR45248",
+      "id": 40801,
+      "equipmentId": 51782,
+      "order_state": "Scheduled"
+    },
+    {
+      "started_at": "2023-02-16T12:22:07.709Z",
+      "order_desc": "Produce 99297 pieces of brick id BR73710",
+      "id": 14376,
+      "equipmentId": 51782,
+      "order_state": "Scheduled"
+    },
+    {
+      "started_at": "2023-02-16T12:22:07.709Z",
+      "order_desc": "Produce 45565 pieces of brick id BR96705",
+      "id": 51581,
+      "equipmentId": 53214,
+      "order_state": "In Progress"
+    },
+    {
+      "started_at": "2023-02-17T12:22:07.709Z",
+      "order_desc": "Produce 84239 pieces of brick id BR87549",
+      "id": 41926,
+      "equipmentId": 53214,
+      "order_state": "Scheduled"
+    },
+    {
+      "started_at": "2023-02-17T12:22:55.709Z",
+      "order_desc": "Produce 28226 pieces of brick id BR24857",
+      "id": 74325,
+      "equipmentId": 53214,
+      "order_state": "Scheduled"
+    },
+    {
+      "started_at": "2023-02-17T12:40:07.709Z",
+      "order_desc": "Produce 17152 pieces of brick id BR30468",
+      "id": 87593,
+      "equipmentId": 53214,
+      "order_state": "Scheduled"
+    }
+  ],
+  "historyLogs": [
+    {
+      "id": 1,
+      "timestamp": "2023-02-18T10:56:27.451Z",
+      "status": "R",
+      "orderId": 31241,
+      "updated_by": "U001",
+      "equipmentId": 14298
+    },
+    {
+      "id": 2,
+      "timestamp": "2023-02-18T11:00:37.480Z",
+      "status": "Y",
+      "orderId": 24123,
+      "updated_by": "U001",
+      "equipmentId": 14298
+    },
+    {
+      "id": 3,
+      "timestamp": "2023-02-18T11:15:45.917Z",
+      "status": "G",
+      "orderId": 24123,
+      "updated_by": "U001",
+      "equipmentId": 14298
+    },
+    {
+      "id": 4,
+      "timestamp": "2023-02-18T12:22:07.709Z",
+      "status": "Y",
+      "orderId": 24123,
+      "updated_by": "U001",
+      "equipmentId": 14298
+    },
+    {
+      "id": 5,
+      "timestamp": "2023-02-18T12:40:07.709Z",
+      "status": "R",
+      "orderId": 24123,
+      "updated_by": "U001",
+      "equipmentId": 14298
+    },
+    {
+      "id": 6,
+      "timestamp": "2023-02-19T09:46:17.054Z",
+      "status": "Y",
+      "orderId": 42341,
+      "updated_by": "U001",
+      "equipmentId": 14298
+    },
+    {
+      "id": 7,
+      "equipmentId": 14298,
+      "timestamp": "2023-02-20T12:20:41.416Z",
+      "status": "G",
+      "orderId": 24123,
+      "updated_by": "U001"
+    },
+    {
+      "id": 58873,
+      "equipmentId": 51782,
+      "timestamp": "2023-02-20T18:11:20.893Z",
+      "status": "Y",
+      "orderId": 57285,
+      "updated_by": "U001"
+    },
+    {
+      "id": 91242,
+      "equipmentId": 51782,
+      "timestamp": "2023-02-20T18:11:26.015Z",
+      "status": "G",
+      "orderId": 57285,
+      "updated_by": "U001"
+    },
+    {
+      "id": 78188,
+      "equipmentId": 53214,
+      "timestamp": "2023-02-20T18:26:43.831Z",
+      "status": "Y",
+      "orderId": 51581,
+      "updated_by": "U001"
+    },
+    {
+      "id": 95417,
+      "equipmentId": 53214,
+      "timestamp": "2023-02-20T18:26:47.750Z",
+      "status": "G",
+      "orderId": 51581,
+      "updated_by": "U001"
+    }
+  ]
+}
